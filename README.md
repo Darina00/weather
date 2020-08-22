@@ -1,24 +1,13 @@
-# weather
+# VUE-application to track the weather in the city at the current time
 
-## Project setup
-```
-npm install
-```
+    Enter the city name in the search box and press the enter key.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+If the [site](https://openweathermap.org/) found data on this city, then the city with the country, date, temperature and weather will be displayed.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+    If the air temperature is above 16 degrees, the image will appear in warm colors, otherwise - in cold colors.
+    Always warm Cairo and always cold Kamchatka can demonstrate this.
+    Just enter Kamchatka (cold) or Cairo (warm) into your search query.
+    
+    Link in the description of the repository.
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[View](https://weathther.herokuapp.com/)
